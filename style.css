@@ -1,0 +1,107 @@
+header{
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.carousel-item img {
+    height: 550px;
+    object-fit: cover;
+}
+.offcanvas-body p {
+    text-align: justify;
+}
+
+
+.card img {
+    height: 190px;
+}
+.icons2 p {
+    position: relative;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    width: 100%;
+}
+.icons2 .icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icons2 .icons li{
+    list-style: none;
+}
+.icons2 .icons li a{
+    color: rgb(12, 12, 103);
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.icons2 .icons li a:hover{
+    transform: translateY(-10px);
+}
+.list-group{
+    position: sticky;
+    top: 1rem;
+}
+
+.swiper {
+    width: 80%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 366px;
+    object-fit: cover;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent , #0002 , #0004);
+  }
+
+/* -----------------------------------Start of Footer-------------------------------------------- */
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+}
+footer .icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .icons li{
+    list-style: none;
+}
+footer .icons li a{
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    color: white;
+}
+footer .icons li a:hover{
+    transform: translateY(-10px);
+}
+footer a{
+    text-decoration: none;
+    color: rgb(189, 186, 186);
+}
+footer a:hover{
+    color: unset;
+}
+
+/* -----------------------------------End of Footer-------------------------------------------- */
